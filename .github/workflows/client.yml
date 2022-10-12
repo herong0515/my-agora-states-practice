@@ -32,5 +32,5 @@ jobs:
             --region ap-northeast-2 \
             build s3://fe-104-herong0515 \
             --delete
-        working-directory: ./my-agora-states
+        working-directory: ./my-agora-states-client
      
