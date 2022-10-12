@@ -145,7 +145,7 @@ li.discussion__container {
 }
 
 li.discussion__container > div {
-  /* padding: 0.5rem; */
+   padding: 0.5rem;
 }
 
 div.discussion__avatar--wrapper {
