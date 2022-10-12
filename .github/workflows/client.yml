@@ -1,9 +1,8 @@
-#아무거나
 name: client
 on:
   push:
-    branches:
-      - reference
+    branches: 
+    - reference
 jobs:
   build:
     runs-on: ubuntu-20.04
@@ -34,4 +33,3 @@ jobs:
             build s3://fe-104-herong0515 \
             --delete
         working-directory: ./my-agora-states-client
-     
